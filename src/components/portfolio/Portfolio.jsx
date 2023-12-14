@@ -4,6 +4,7 @@ import musicplayer from '../../Assets/musicplayer.jpg'
 import awesome from '../../Assets/awesome.png'
 import portfolioo from '../../Assets/portfolioo.jfif'
 import Foodorderwebsite from '../../Assets/Foodorderwebsite.png'
+import Hotstarss from '../../Assets/Hotstarss.jpg'
 
 export const Portfolio = () => {
   return (
@@ -17,12 +18,12 @@ export const Portfolio = () => {
 
           <article className='portfolio__item'>
             <div className='portfolio__item-image'>
-              <img src={musicplayer} />
+              <img src={Hotstarss} />
             </div>
-            <h3>It's A Music Player</h3>
+            <h3>Disney+ Hotstar Clone</h3>
             <div className='portfolio__item-cta'>
-              <a href='https://github.com/pranjalbansal787/music-player' className='btn' target="_blank">Github</a>
-              <a href="https://pranjal-bansal-20cdd5.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>
+              <a href='https://github.com/pranjalbansal787/Disney-Hotstar' className='btn' target="_blank">Github</a>
+              <a href="https://disney-hotstar-by-pranjalbansal.vercel.app/" className="btn btn-primary" target="_blank">Live Demo</a>
             </div>
           </article>
 
@@ -38,6 +39,28 @@ export const Portfolio = () => {
             </div>
           </article>
 
+          <article className='portfolio__item'>
+            <div className='portfolio__item-image'>
+              <img src={Foodorderwebsite} />
+            </div>
+            <h3>Food Ordering Website</h3>
+            <div className='portfolio__item-cta'>
+              <a href='https://github.com/pranjalbansal787/Food-Order-website' className='btn'>Github</a>
+              <a href="https://656c317968c8cf5a6b97e809--capable-gumdrop-4bd50f.netlify.app/?#" className="btn btn-primary" target="_blank">Live Demo</a>
+            </div>
+          </article>
+
+          <article className='portfolio__item'>
+            <div className='portfolio__item-image'>
+              <img src={musicplayer} />
+            </div>
+            <h3>It's A Music Player</h3>
+            <div className='portfolio__item-cta'>
+              <a href='https://github.com/pranjalbansal787/music-player' className='btn' target="_blank">Github</a>
+              <a href="https://pranjal-bansal-20cdd5.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>
+            </div>
+          </article>
+
 
           <article className='portfolio__item'>
             <div className='portfolio__item-image'>
@@ -47,17 +70,6 @@ export const Portfolio = () => {
             <div className='portfolio__item-cta'>
               <a href='https://github.com' className='btn' target="_blank">Github</a>
               <a href="#" className="btn btn-primary">Live Demo</a>
-            </div>
-          </article>
-
-          <article className='portfolio__item'>
-            <div className='portfolio__item-image'>
-              <img src={Foodorderwebsite} />
-            </div>
-            <h3>Food Ordering Website</h3>
-            <div className='portfolio__item-cta'>
-              <a href='https://github.com/pranjalbansal787/Food-Order-website' className='btn'>Github</a>
-              <a href="https://656c317968c8cf5a6b97e809--capable-gumdrop-4bd50f.netlify.app/?#" className="btn btn-primary" target="_blank">Live Demo</a>
             </div>
           </article>
 
