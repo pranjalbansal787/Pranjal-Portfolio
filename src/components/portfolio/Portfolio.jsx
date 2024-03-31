@@ -6,6 +6,7 @@ import portfolioo from '../../Assets/portfolioo.jfif'
 import Foodorderwebsite from '../../Assets/Foodorderwebsite.png'
 import Hotstarss from '../../Assets/Hotstarss.jpg'
 import passwordgenerator from '../../Assets/passwordgenerator.jpg'
+import adminaccess from '../../Assets/adminaccess.jpg'
 
 
 export const Portfolio = () => {
@@ -38,6 +39,17 @@ export const Portfolio = () => {
             <div className='portfolio__item-cta'>
               <a href='https://github.com/pranjalbansal787/Awesome-Landing-pages' className='btn'>Github</a>
               <a href="https://guileless-sopapillas-e527fc.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>
+            </div>
+          </article>
+
+          <article className='portfolio__item'>
+            <div className='portfolio__item-image'>
+              <img src={adminaccess} />
+            </div>
+            <h3>Admin Access Control System</h3>
+            <div className='portfolio__item-cta'>
+              <a href='https://github.com/pranjalbansal787/Admin-Access-Control-system' className='btn'>Github</a>
+              <a href="https://admin-access-control-system.vercel.app/" className="btn btn-primary" target="_blank">Live Demo</a>
             </div>
           </article>
 
