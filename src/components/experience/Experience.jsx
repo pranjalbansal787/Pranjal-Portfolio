@@ -34,6 +34,22 @@ const Experience = () => {
             <div>
               <article className="experience_details">
                 <MdVerified className="experience__details-icon" />
+                <h4>TYPESCRIPT</h4>
+                <small className='text-light'>Intermediate</small>
+              </article>
+            </div>
+
+            <div>
+              <article className="experience_details">
+                <MdVerified className="experience__details-icon" />
+                <h4>NEXTJS</h4>
+                <small className='text-light'>Intermediate</small>
+              </article>
+            </div>
+
+            <div>
+              <article className="experience_details">
+                <MdVerified className="experience__details-icon" />
                 <h4>REDUX</h4>
                 <small className='text-light'>Experienced</small>
               </article>
@@ -47,27 +63,10 @@ const Experience = () => {
               </article>
             </div>
 
-
             <div>
               <article className="experience_details">
                 <MdVerified className="experience__details-icon" />
-                <h4>CSS</h4>
-                <small className='text-light'>Intermediate</small>
-              </article>
-            </div>
-
-            <div>
-              <article className="experience_details">
-                <MdVerified className="experience__details-icon" />
-                <h4>SCSS/SASS</h4>
-                <small className='text-light'>Intermediate</small>
-              </article>
-            </div>
-
-            <div>
-              <article className="experience_details">
-                <MdVerified className="experience__details-icon" />
-                <h4>BOOTSTRAP</h4>
+                <h4>CSS/SCSS</h4>
                 <small className='text-light'>Intermediate</small>
               </article>
             </div>
@@ -76,7 +75,7 @@ const Experience = () => {
               <article className="experience_details">
                 <MdVerified className="experience__details-icon" />
                 <h4>TAILWIND</h4>
-                <small className='text-light'>Basics</small>
+                <small className='text-light'>Intermediate</small>
               </article>
             </div>
 
@@ -88,11 +87,19 @@ const Experience = () => {
 
           <div className="experience__content">
 
+          <div>
+              <article className="experience_details">
+                <MdVerified className="experience__details-icon" />
+                <h4>MongoDB</h4>
+                <small className='text-light'>Intermediate</small>
+              </article>
+            </div>
+
             <div>
               <article className="experience_details">
                 <MdVerified className="experience__details-icon" />
                 <h4>SQL</h4>
-                <small className='text-light'>Basics</small>
+                <small className='text-light'>Intermediate</small>
               </article>
             </div>
 
@@ -111,6 +118,7 @@ const Experience = () => {
                 <small className='text-light'>Intermediate</small>
               </article>
             </div>
+            
 
           </div>
         </div>
