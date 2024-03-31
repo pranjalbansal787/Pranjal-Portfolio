@@ -10,17 +10,17 @@ import Footer from './components/footer/Footer'
 
 export const App = () => {
   return (
- 
+
     <>
-        <Header />
-        <Nav />
-        <About/>
-        <Experience/>
-     
-        <Portfolio/>
-       
-        <Contact/>
-        <Footer/>
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+
+      <Portfolio />
+
+      <Contact />
+      <Footer />
 
     </>
   )

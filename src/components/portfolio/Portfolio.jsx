@@ -5,6 +5,8 @@ import awesome from '../../Assets/awesome.png'
 import portfolioo from '../../Assets/portfolioo.jfif'
 import Foodorderwebsite from '../../Assets/Foodorderwebsite.png'
 import Hotstarss from '../../Assets/Hotstarss.jpg'
+import passwordgenerator from '../../Assets/passwordgenerator.jpg'
+
 
 export const Portfolio = () => {
   return (
@@ -60,6 +62,18 @@ export const Portfolio = () => {
               <a href="https://pranjal-bansal-20cdd5.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>
             </div>
           </article>
+
+          <article className='portfolio__item'>
+            <div className='portfolio__item-image'>
+              <img src={passwordgenerator} />
+            </div>
+            <h3>Password Generator</h3>
+            <div className='portfolio__item-cta'>
+              <a href='https://github.com/pranjalbansal787/password-generator-react' className='btn' target="_blank">Github</a>
+              <a href="https://password-generator-react-4u21.vercel.app/" className="btn btn-primary" target="_blank">Live Demo</a>
+            </div>
+          </article>
+
 
 
           <article className='portfolio__item'>
